@@ -14,13 +14,48 @@
     <p id="description">This is a test survey.</p>
 
     <form id="survey-form">
-      <label id="nameLabel">Name: </label>
-      <input id="name">
-      <label id="emailLabel">Email: </label>
-      <input type="email" id="email" required>
-      <label id="numberLabel">Age: </label>
-      <input type="number" id="number" required>
-      <input type="submit" value="Submit Now!">
+      <label id="name-label">Name: </label>
+      <input id="name" placeholder="Enter your name" required>
+      <label id="email-label">Email: </label>
+      <input type="email" id="email" placeholder="Enter your Email" required>
+      <label id="number-label">Age: </label>
+      <input type="number" id="number" min="18" max="60" placeholder="Enter your Age" required>
+      <select id="dropdown">
+       <option value="Yes">Yes</option> 
+       <option value="No">No</option>
+      </select>
+      <div>
+        
+      <label >
+      <input name="radiocheck" type="radio" value="Yes" checked> "Yes" 
+      </label>
+      <label>
+        <input name="radiocheck" type="radio" value="Maybe" > "Maybe"
+      </label>
+      <label>
+        <input name="radiocheck" type="radio" value="No"> "No"
+      </label>
+      </div>
+
+
+      <div>
+        <label>
+          <input value="Air" type="checkbox">"Air"
+        </label>
+        <label>
+          <input value="Earth" type="checkbox">"Earth"
+        </label>
+        <label>
+          <input value="Fire" type="checkbox">"Fire"
+        </label>
+        <label>
+          <input value="Water" type="checkbox">"Water"
+        </label>
+      </div>
+<textarea id="comments" placeholder="Enter your comment here...">
+
+</textarea>
+      <button id="submit" type="submit" value="Submit Now!">"Submit Now"
     </form>
 
     <!--<form action="/action_page.php" method="get">
