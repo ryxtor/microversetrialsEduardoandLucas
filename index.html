@@ -14,17 +14,26 @@
     <p id="description">This is a test survey.</p>
 
     <form id="survey-form">
-      <label id="name-label">Name: </label>
-      <input id="name" placeholder="Enter your name" required>
-      <label id="email-label">Email: </label>
-      <input type="email" id="email" placeholder="Enter your Email" required>
-      <label id="number-label">Age: </label>
-      <input type="number" id="number" min="18" max="60" placeholder="Enter your Age" required>
-      <select id="dropdown">
-       <option value="Yes">Yes</option> 
-       <option value="No">No</option>
-      </select>
-      <div>
+      <div class="name css" >
+        <label id="name-label">Name: </label>
+        <input id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="email css">
+        <label id="email-label">Email: </label>
+        <input type="email" id="email" placeholder="Enter your Email" required>
+      </div>
+      <div class="number css">
+        <label id="number-label">Age: </label>
+        <input type="number" id="number" min="18" max="60" placeholder="Enter your Age" required>
+      </div>
+      <div class="dropdown css">
+
+        <select id="dropdown">
+          <option value="Yes">Yes</option> 
+          <option value="No">No</option>
+        </select>
+      </div>
+        <div class="radio css">
         
       <label >
       <input name="radiocheck" type="radio" value="Yes" checked> "Yes" 
@@ -38,7 +47,7 @@
       </div>
 
 
-      <div>
+      <div class="checkbox css">
         <label>
           <input value="Air" type="checkbox">"Air"
         </label>
@@ -52,10 +61,16 @@
           <input value="Water" type="checkbox">"Water"
         </label>
       </div>
-<textarea id="comments" placeholder="Enter your comment here...">
+      <div class="comments css">
 
-</textarea>
-      <button id="submit" type="submit" value="Submit Now!">"Submit Now"
+        <textarea id="comments" placeholder="Enter your comment here...">
+          
+        </textarea>
+      </div>
+      <div class="submit css">
+
+        <button id="submit" type="submit" value="Submit Now!">"Submit Now"
+      </div>
     </form>
 
     <!--<form action="/action_page.php" method="get">
