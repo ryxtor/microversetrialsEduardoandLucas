@@ -1,3 +1,62 @@
+* {
+    text-align: center;
+}
+
+#title,
+#description{
+    text-align: center;
+}
+
 #title {
     background-color: purple;
+}
+
+#question {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.css {
+    flex-direction: column;
+    flex: 1 1 auto;
+    margin: 30px;
+    font-size: 20px ;
+}
+
+.radio {
+    display: block;
+    background-color: gray;
+    text-align: center;
+    margin: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.comments {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.dropdown {
+    display: block;
+    background-color: lightgoldenrodyellow;
+    margin: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#name,
+#email,
+#number{
+    width: 800px;
+    height: 30px;
+    flex-direction: column;
+    flex: 0;
+}
+
+.submit {
+    height: 100px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
 }
